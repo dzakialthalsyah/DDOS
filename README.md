@@ -1,6 +1,6 @@
 # DDOS
 Tools for DDOS (warning don't use it for criminal acts)
-WE WILL NOT BE RESPONIBLE FOR ALL OF YOUR ACTIONS
+WE WILL NOT BE RESPONSIBLE FOR ALL OF YOUR ACTIONS
 
 # Linux User
 apt install python
